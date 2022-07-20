@@ -1,0 +1,311 @@
+@media (min-width: 684px) and (max-width: 950px) {
+    .first_view__text h1{
+        font-size: 40px;
+    }
+    .first_view__follow p, .first_view__sidebar button{
+        font-size: 10px;
+    }
+    #body{
+        background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 8.5%);
+        gap: 10vh;
+    }
+
+    .body_point{
+        height: 80vh;
+    }
+    .body_point__descText{
+        padding-left: 30px;
+    }
+    .body_point__tab{
+        top: -40px;
+        left: -15px;
+    }
+    .body_point__tab h1{
+        font-size: 70px;
+    }
+    .body_point__descText--bar div hr{
+        width: 40px;
+    }
+    .body_point__descText--bar div span{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .body_point__descText h3{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .body_point__descText p{
+        font-size: 9px;
+    }
+    .body_point__descImg img{
+        height: 400px;
+    }
+    .body_point__desc button{
+        font-size: 8px;
+    }
+    .footer_desc--label p{
+        font-size: 9px;
+    }
+    .copyright p{
+        font-size: 8px;
+    }
+    .footer_desc--more h3{
+        font-size: 10px;
+    }
+    .footer_desc--more ul li{
+        margin-bottom: 5px;
+    }
+    .footer_desc--more ul li a{
+        font-size: 8px;
+    }
+}
+    
+
+@media (min-width: 375px) and (max-width: 684px){
+    #first_view{
+        background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 35.06%, #0B1D26 108.93%), no-repeat url('VGnewVG.png') 100% 60vh,no-repeat url('MGNewMG.png') 100% 42vh,  no-repeat url('HGnew HG.png') 100% 0;
+        background-size: 100% 150vh, 100% 20%, 100% auto, 100% 100vh;
+        height: 200vh;
+    }
+
+    .navBar__links a{
+        display: none;
+    }
+    .first_view__text{
+        width: 100%;
+        padding: 0 5%;
+    }
+    .first_view__text h1{
+        font-size: 30px;
+    }
+    .prepare{
+        margin-bottom: -60px;
+    }
+    .first_view__text button{
+        font-size: 10px;
+    }
+    .first_view__follow, .first_view__sidebar button{
+        display: none;
+    }
+    #body{
+        background: #0B1D26 6.5%;
+        gap: 10vh;
+    }
+
+    .body_point{
+        height: 50vh;
+        width: 90%;
+    }
+    .body_point__descText{
+        padding-left: 10px;
+    }
+    .body_point__tab{
+        top: -40px;
+        left: -15px;
+    }
+    .body_point__tab h1{
+        font-size: 70px;
+    }
+    .body_point__descText--bar div hr{
+        width: 30px;
+    }
+    .body_point__descText--bar div span{
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+    .body_point__descText h3{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .body_point__descText p{
+        font-size: 7px;
+        font-weight: 100;
+    }
+    .body_point__descImg img{
+        height: 250px;
+    }
+    .body_point__desc button{
+        font-size: 7px;
+    }
+    .footer_desc--label p{
+        font-size: 7px;
+    }
+    .copyright p{
+        font-size: 5px;
+    }
+    .footer_desc--more h3{
+        font-size: 7px;
+    }
+    .footer_desc--more ul li{
+        margin-bottom: 3px;
+    }
+    .footer_desc--more ul li a{
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 684px){
+    #first_view{
+        background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 35.06%, #0B1D26 108.93%), no-repeat url('VGnewVG.png') 100% 60vh,no-repeat url('MGNewMG.png') 100% 42vh,  no-repeat url('HGnew HG.png') 100% 0;
+        background-size: 100% 150vh, 100% 20%, 100% auto, 100% 100vh;
+        height: 200vh;
+    }
+
+    .navBar__links a{
+        display: none;
+    }
+    .first_view__text{
+        width: 100%;
+        padding: 0 5%;
+    }
+    .first_view__text h1{
+        font-size: 30px;
+    }
+    .prepare{
+        margin-bottom: -60px;
+    }
+    .first_view__text button{
+        font-size: 10px;
+    }
+    .first_view__follow, .first_view__sidebar button{
+        display: none;
+    }
+    #body{
+        background: #0B1D26 6.5%;
+        gap: 10vh;
+    }
+
+    .body_point{
+        height: 50vh;
+        width: 90%;
+    }
+    .body_point__descText{
+        padding-left: 10px;
+    }
+    .body_point__tab{
+        top: -40px;
+        left: -15px;
+    }
+    .body_point__tab h1{
+        font-size: 70px;
+    }
+    .body_point__descText--bar div hr{
+        width: 30px;
+    }
+    .body_point__descText--bar div span{
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+    .body_point__descText h3{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .body_point__descText p{
+        font-size: 7px;
+        font-weight: 100;
+    }
+    .body_point__descImg img{
+        height: 250px;
+    }
+    .body_point__desc button{
+        font-size: 7px;
+    }
+    .footer_desc--label p{
+        font-size: 7px;
+    }
+    .copyright p{
+        font-size: 5px;
+    }
+    .footer_desc--more h3{
+        font-size: 7px;
+    }
+    .footer_desc--more ul li{
+        margin-bottom: 3px;
+    }
+    .footer_desc--more ul li a{
+        font-size: 7px;
+    }
+}
+@media (max-width: 375px){
+    #first_view{
+        background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 35.06%, #0B1D26 108.93%), no-repeat url('VGnewVG.png') 100% 77vh,no-repeat url('MGNewMG.png') 100% 42vh,  no-repeat url('HGnew HG.png') 100% 0;
+        background-size: 100% 150vh, 100% auto, 100% 80vh, 100% 100vh;
+        height: 200vh;
+    }
+
+    .navBar__links a{
+        display: none;
+    }
+    .first_view__text{
+        width: 100%;
+        padding: 0 5%;
+    }
+    .first_view__text h1{
+        font-size: 28px;
+    }
+    .prepare{
+        margin-bottom: -60px;
+    }
+    .first_view__text button{
+        font-size: 10px;
+    }
+    .first_view__follow, .first_view__sidebar button{
+        display: none;
+    }
+    #body{
+        background: #0B1D26 6.5%;
+        gap: .2vh;
+    }
+
+    .body_point{
+        height: 50vh;
+        width: 90%;
+    }
+    .body_point__descText{
+        padding-left: 10px;
+    }
+    .body_point__tab{
+        top: -40px;
+        left: -15px;
+    }
+    .body_point__tab h1{
+        font-size: 70px;
+    }
+    .body_point__descText--bar div hr{
+        width: 30px;
+    }
+    .body_point__descText--bar div span{
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+    .body_point__descText h3{
+        margin-top: 9px;
+        font-size: 20px;
+    }
+    .body_point__descText p{
+        font-size: 7px;
+        font-weight: 100;
+    }
+    .body_point__descImg img{
+        height: 250px;
+    }
+    .body_point__desc button{
+        font-size: 7px;
+    }
+    .footer_desc--label p{
+        font-size: 7px;
+    }
+    .copyright p{
+        font-size: 5px;
+    }
+    .footer_desc--more h3{
+        font-size: 7px;
+    }
+    .footer_desc--more ul li{
+        margin-bottom: 3px;
+    }
+    .footer_desc--more ul li a{
+        font-size: 7px;
+    }
+}
+    

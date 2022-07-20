@@ -7,13 +7,10 @@
     <title>MNTN Landing Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
-    <section id="first_view">
-        <img class="topImg" src="HGnew HG.png" alt="">
-        <img class="middleImg" src="MGNewMG.png" alt="">
-        <img class="bottomImg" src="VGnewVG.png" alt="">
-        <div class="topGrad"></div>
+    <section id="first_view"> 
         <div class="navBar navBar__full">
             <h1>MNTN</h1>
             <div class="navBar__links">
@@ -26,34 +23,48 @@
                 <p>Account</p>
             </div>
         </div>
-        <div class="first_view__text">
-            <div class="body_point__descText--bar">
-                <div><hr></div>
-                <div><span>A HIKING GUIDE</span></div>
+
+        <!--  banner text -->
+        <div class="first_view__content">
+            <div class="first_view__follow">
+                <p>Follow</p>
+                <div><i class="fab fa-instagram"></i></div>
+                <div><i class="fab fa-twitter"></i></div>
             </div>
-            <h1 class="prepare">Be prepared for the</h1>
-            <h1>mountain and beyond!</h1>
-            <button>scroll down <i class="fas fa-arrow-down"></i></button>
-        </div>
-        <div class="first_view__follow">
-            <p>Follow</p>
-            <div><i class="fab fa-instagram"></i></div>
-            <div><i class="fab fa-twitter"></i></div>
-        </div>
-        <div class="first_view__sidebar">
-            <button class="active">Start</button>
-            <button>01</button>
-            <button>02</button>
-            <button>03</button>
+
+            <div class="first_view__text">
+                <div class="body_point__descText--bar">
+                    <div><hr></div>
+                    <div><span>A HIKING GUIDE</span></div>
+                </div>
+                <h1 class="prepare">Be prepared for the</h1>
+                <h1>mountain and beyond!</h1>
+                <button>scroll down <i class="fas fa-arrow-down"></i></button>
+            </div>
+            
+            <div class="first_view__sidebar">
+                <button class="active">Start</button>
+                <button>01</button>
+                <button>02</button>
+                <button>03</button>
+            </div>
         </div>
     </section>
+
+
     <section id="body">
 
-        <!-- section -1 - get started -->
+        <!-- section -1 - get started --> 
         <div class="body_point body_point--hikertype">
-            <div class="body_point__tab body_point__tab--hikertype"><h1>01</h1></div>
+            
             <div class="body_point__desc">
+                
                 <div class="body_point__descText">
+
+                    <div class="body_point__tab body_point__tab--hikertype">
+                        <h1>01</h1>
+                    </div>
+
                     <div class="body_point__descText--bar">
                         <div><hr></div>
                         <div><span>GET STARTED</span></div>
@@ -68,15 +79,19 @@
                 </div>
             </div>
         </div>
-
+        
         <!-- section 2- hiking essentials -->
         <div class="body_point body_point--hikerEssential">
-            <div class="body_point__tab body_point__tab--essential"><h1>02</h1></div>
             <div class="body_point__desc">
+
                 <div class="body_point__descImg">
                     <img src="01essent.png" alt="">
                 </div>
                 <div class="body_point__descText">
+                    <div class="body_point__tab body_point__tab--hikertype">
+                        <h1>02</h1>
+                    </div>
+
                     <div class="body_point__descText--bar">
                         <div><hr></div>
                         <div><span>HIKING ESSENTIALS</span></div>
@@ -90,11 +105,13 @@
             </div>
         </div>
         
-        <!-- section 3 - understanding your map-->
+        <!-- section 3 - understanding your map -->
         <div class="body_point body_point--understanding">
-            <div class="body_point__tab body_point__tab--hikertype"><h1>03</h1></div>
+            
             <div class="body_point__desc">
                 <div class="body_point__descText">
+                    <div class="body_point__tab body_point__tab--hikertype"><h1>03</h1></div>
+
                     <div class="body_point__descText--bar">
                         <div><hr></div>
                         <div><span>where you go is the key</span></div>
@@ -108,11 +125,7 @@
                     <img src="01map.png" alt="">
                 </div>
             </div>
-        </div> 
-    </section>
-
-    <!-- footer side -->
-    <section id="footer">
+        </div>
         <div class="footer_desc">
             <div class="footer_desc--label">
                 <div>
@@ -133,7 +146,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3>More on The Blog</h3>
+                    <h3>More on The MNTN</h3>
                     <ul>
                         <li><a href="#">The Team</a></li>
                         <li><a href="#">Job</a></li>
@@ -141,7 +154,12 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> 
+    </section>
+
+    <!-- footer side -->
+    <section id="footer">
+        
     </section>
 </body>
 </html>
